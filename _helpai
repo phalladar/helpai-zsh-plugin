@@ -1,0 +1,14 @@
+#compdef helpai
+
+# Basic completion for the helpai command.
+# It currently takes no arguments.
+
+_helpai() {
+    # _arguments is the Zsh utility for defining completions.
+    # Add lines here if helpai ever takes options or arguments.
+    # For now, this empty function suffices to register the command.
+    return 0
+}
+
+# Call the function to register the completions.
+_helpai "$@"
